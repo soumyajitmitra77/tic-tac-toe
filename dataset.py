@@ -4,7 +4,7 @@ import matplotlib as pyplt
 
 def load_data():
     #load data from csv file, we use 'genfromtxt' because numpy is designed to work with numbers and not strings
-    data = np.genfromtxt('./Training Data/tic-tac-toe copy.csv', delimiter = ',', dtype = 'str')
+    data = np.genfromtxt('./tic-tac-toe copy.csv', delimiter = ',', dtype = 'str')
 
     #so we convert the data to numbers
     #lets assign 'x' = 4, 'b' = 5, 'o' = 6, 'positive' = '1' and 'negative' = '0'
